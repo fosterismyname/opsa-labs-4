@@ -1,0 +1,15 @@
+VAR
+	gAxis01 : ACP10AXIS_typ;
+	gAxis01_HW : SdcHwCfg_typ := (0);
+	gAxis01_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis01_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxis01_ModuleOk : BOOL := 0;
+	EVIRD : DRIVE;
+	Speed : INT := 0;
+	LED1 : BOOL;
+	LED2 : BOOL;
+	LED3 : BOOL;
+	LED4 : BOOL;
+	Led : ARRAY[0..3] OF BOOL;
+	Click : BOOL;
+END_VAR
